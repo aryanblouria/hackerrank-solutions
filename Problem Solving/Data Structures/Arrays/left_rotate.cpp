@@ -13,7 +13,6 @@ vector<int> rotateLeft1(int d, vector<int> arr) {
     return arr;
 }
 
-
 vector<int> rotateLeft2(int d, vector<int> arr) {
     vector<int> rotated = {};
     for (int i = d; i < arr.size(); i++)
