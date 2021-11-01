@@ -4,5 +4,3 @@ if __name__ == '__main__':
     l = list(set(list(arr)))
     l.remove(max(l))
     print(max(l))
-    
-        
